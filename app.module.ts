@@ -17,9 +17,10 @@
                 component: TestComponent,
             },
         ];
-    
+        },
+        deps: [DemoService],
+        multi: true,
     },
-
 ],
     bootStrap: [AppComponent],  
 })
